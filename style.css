@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.contain {
+
+    top: 0;
+    height: 145vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    height: 145vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    overflow: hidden;
+    background: url(/assets/ciel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.clouds {
+    position: absolute;
+    top: 0;
+}
+
+#cloud-contact {
+    top: 150px;
+    width: 100%;
+}
+
+#cloud {
+    width: 100%;
+}
+
+#cloud-back {
+    object-fit: contain;
+}
+
+#astre {
+    top: -400px;
+    left: -150px;
+
+}
+
+
+
+/* title */
+
+#title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    height: 300px;
+
+}
+
+.img-fq {
+    position: relative;
+    width: 180px;
+    height: 100%;
+}
+
+.img-fq img {
+    position: absolute;
+    top: -25px;
+    left: -60px;
+    width: 300px;
+
+}
+#just-q{
+left:-187px;
+    top: -10px;
+}
+
+
+.title-d-span{
+    
+    overflow: hidden;
+    width: 0px;
+
+}
+.tsp{
+    font-size: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section span {
+    color: white;
+    font-size: 2rem;
+}
+
+#span1 {
+    position: absolute;
+    top: 715px;
+    white-space: nowrap;
+}
+
+#span2 {
+    position: absolute;
+    top: 900px
+}
+
+.sec {
+
+    background: #fff;
+    padding: 0 300px;
+
+}
+
+.sec h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10 px;
+}
